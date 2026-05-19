@@ -1079,7 +1079,7 @@ void PrintConfigDef::init_fff_params()
                      "around the extruded bridge, improving its cooling speed.");
     def->sidetext = "%";
     def->min = 10;
-    def->max = 100;
+    def->max = 200;
     def->mode = comAdvanced;
     def->set_default_value(new ConfigOptionPercent(100));
 
